@@ -1,0 +1,19 @@
+{
+  "name": "systemjs-plugin-wasm",
+  "version": "1.0.0",
+  "description": "SystemJS plugin for loading and instanciating Web Assembly modules",
+  "main": "wasm.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AMorgaut/systemjs-plugin-wasm.git"
+  },
+  "keywords": [
+    "jspm",
+    "systemjs-plugin",
+    "wasm",
+    "WebAssembly"
+  ],
+  "jspmPackage": true,
+  "author": "Alexandre Morgaut",
+  "license": "ISC"
+}
