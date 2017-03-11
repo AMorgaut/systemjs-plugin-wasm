@@ -1,6 +1,6 @@
 {
   "name": "systemjs-plugin-wasm",
-  "version": "1.0.0",
+  "version": "1.0.1-beta",
   "description": "SystemJS plugin for loading and instanciating Web Assembly modules",
   "main": "wasm.js",
   "repository": {
@@ -9,7 +9,10 @@
   },
   "keywords": [
     "jspm",
-    "systemjs-plugin",
+    "systemjs",
+    "plugin",
+    "loader",
+    "module",
     "wasm",
     "WebAssembly"
   ],
