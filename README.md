@@ -35,7 +35,17 @@ System.config({
 
 ## Usage
 
-### With package config and an extension:
+### ES6 Static import
+
+Via jspm or Babel + [babel plugin es2015-modules-systemjs](https://www.npmjs.com/package/babel-plugin-transform-es2015-modules-systemjs) 
+
+```javascript
+import myApi from 'myWebAssemblyModule.wasm!';
+
+myApi.myFunction();
+```
+
+### Dynamic Import
 
 ```javascript
 const myApi = (await System.import('myWebAssemblyModule.wasm!')).default;
