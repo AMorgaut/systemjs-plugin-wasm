@@ -6,7 +6,27 @@
 
 SystemJS plugin for loading and instanciating [Web Assembly](http://webassembly.org/) modules
 
+Works with lastest release of Firefox and next release of Chrome (see [Can I Use Web Assembly](http://caniuse.com/#feat=wasm))
 
+## Usage
+
+### ES6 Static import
+
+Via jspm or Babel + [babel plugin es2015-modules-systemjs](https://www.npmjs.com/package/babel-plugin-transform-es2015-modules-systemjs) 
+
+```javascript
+import myApi from 'myWebAssemblyModule.wasm!';
+
+myApi.myFunction();
+```
+
+### Dynamic Import
+
+```javascript
+const myApi = (await System.import('myWebAssemblyModule.wasm!')).default;
+
+myApi.myFunction();
+```
 ## Installation
 
 ### npm
@@ -31,25 +51,5 @@ System.config({
     'wasm': 'node_modules/systemjs-plugin-wasm/wasm.js'
   }
 })
-```
-
-## Usage
-
-### ES6 Static import
-
-Via jspm or Babel + [babel plugin es2015-modules-systemjs](https://www.npmjs.com/package/babel-plugin-transform-es2015-modules-systemjs) 
-
-```javascript
-import myApi from 'myWebAssemblyModule.wasm!';
-
-myApi.myFunction();
-```
-
-### Dynamic Import
-
-```javascript
-const myApi = (await System.import('myWebAssemblyModule.wasm!')).default;
-
-myApi.myFunction();
 ```
 
