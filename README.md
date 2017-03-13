@@ -1,5 +1,8 @@
 
 [![NPM version](https://badge.fury.io/js/systemjs-plugin-wasm.svg)](http://badge.fury.io/js/systemjs-plugin-wasm)
+[![Greenkeeper badge](https://badges.greenkeeper.io/AMorgaut/systemjs-plugin-wasm.svg)](https://greenkeeper.io/)
+[![Build Status](https://api.travis-ci.org/AMorgaut/systemjs-plugin-wasm.svg?branch=test-travis)](https://travis-ci.org/AMorgaut/systemjs-plugin-wasm)
+[![Coverage Status](https://coveralls.io/repos/github/AMorgaut/systemjs-plugin-wasm/badge.svg?branch=travis-test)](https://coveralls.io/github/AMorgaut/systemjs-plugin-wasm?branch=travis-test)
 [![ISC Licensed](http://img.shields.io/badge/license-ISC-blue.svg?style=flat)](#license)
 
 # systemjs-plugin-wasm
