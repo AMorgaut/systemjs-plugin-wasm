@@ -5,7 +5,7 @@
 [![Coverage Status](https://coveralls.io/repos/github/AMorgaut/systemjs-plugin-wasm/badge.svg?branch=travis-test)](https://coveralls.io/github/AMorgaut/systemjs-plugin-wasm?branch=travis-test)
 [![ISC Licensed](http://img.shields.io/badge/license-ISC-blue.svg?style=flat)](#license)
 
-# systemjs-plugin-wasm
+# systemjs-plugin-wasm 
 
 SystemJS plugin for loading and instanciating [Web Assembly](http://webassembly.org/) modules
 
