@@ -14,6 +14,8 @@ Should Work with
 
 See [Can I Use Web Assembly](http://caniuse.com/#feat=wasm)
 
+You can generate Web Assembly module from C/C++ using the [EMScripten (aka emcc) Compiler](https://github.com/kripken/emscripten/wiki/WebAssembly)
+
 ## Usage
 
 ### ES6 Static import
