@@ -4,7 +4,7 @@
 
 # systemjs-plugin-wasm
 
-SystemJS plugin for loading and instanciating [Web Assembly](http://webassembly.org/) modules providing native like performances.
+[SystemJS](https://github.com/systemjs/systemjs) plugin for loading and instanciating [Web Assembly](http://webassembly.org/) modules providing native like performances.
 
 Should Work with 
 
@@ -14,13 +14,13 @@ Should Work with
 
 See [Can I Use Web Assembly](http://caniuse.com/#feat=wasm)
 
-You can generate Web Assembly module from C/C++ using the [EMScripten (aka emcc) Compiler](https://github.com/kripken/emscripten/wiki/WebAssembly)
+You can generate Web Assembly modules from C/C++ using the [EMScripten (aka emcc) Compiler](https://github.com/kripken/emscripten/wiki/WebAssembly)
 
 ## Usage
 
 ### ES6 Static import
 
-Via jspm or Babel + [babel plugin es2015-modules-systemjs](https://www.npmjs.com/package/babel-plugin-transform-es2015-modules-systemjs) 
+Via [jspm](http://jspm.io/) or Babel + [babel plugin es2015-modules-systemjs](https://www.npmjs.com/package/babel-plugin-transform-es2015-modules-systemjs) 
 
 ```javascript
 import myApi from 'myWebAssemblyModule.wasm!';
