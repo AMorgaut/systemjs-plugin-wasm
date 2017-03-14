@@ -4,7 +4,7 @@
 
 # systemjs-plugin-wasm
 
-SystemJS plugin for loading and instanciating [Web Assembly](http://webassembly.org/) modules
+SystemJS plugin for loading and instanciating [Web Assembly](http://webassembly.org/) modules providing native like performances.
 
 Should Work with 
 
