@@ -20,7 +20,7 @@ You can generate Web Assembly modules from C/C++ using the [EMScripten (aka emcc
 
 ### ES6 Static import
 
-Via [jspm](http://jspm.io/) or Babel + [babel plugin es2015-modules-systemjs](https://www.npmjs.com/package/babel-plugin-transform-es2015-modules-systemjs) 
+Via [jspm](http://jspm.io/) or [Babel](https://babeljs.io/) + [babel plugin es2015-modules-systemjs](https://www.npmjs.com/package/babel-plugin-transform-es2015-modules-systemjs) 
 
 ```javascript
 import myApi from 'myWebAssemblyModule.wasm!';
