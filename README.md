@@ -6,7 +6,13 @@
 
 SystemJS plugin for loading and instanciating [Web Assembly](http://webassembly.org/) modules
 
-Works with lastest release of Firefox and next release of Chrome (see [Can I Use Web Assembly](http://caniuse.com/#feat=wasm))
+Should Work with 
+
+* lastest Firefox (52) and Chrome (57) releases 
+* lastest Opera via the `#enable-webassembly` flag
+* upcoming MS Edge via the "Experimental JavaScript Features flag"
+
+See [Can I Use Web Assembly](http://caniuse.com/#feat=wasm)
 
 ## Usage
 
